@@ -1,34 +1,22 @@
 
-' ********** Copyright 2016 Roku Corp.  All Rights Reserved. **********
-
-Function loadConfig() as Object
-    arr = [
-'##### Format for inputting stream info #####
-'## For each channel, enclose in brackets ## 
-'{
-'   Title: Channel Title
-'   streamFormat: Channel stream type (ex. "hls", "ism", "mp4", etc..)
-'   Logo: Channel Logo (ex. "http://Roku.com/Roku.jpg)
-'   Stream: URL to stream (ex. http://hls.Roku.com/talks/xxx.m3u8)
-'}
     
 {
-    Title: "Roku Example One"
-    streamFormat: "mp4"
-    Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    Title: "Bravo"
+    streamFormat: "hls"
+    Logo: "http://www.lyngsat-logo.com/tvchannel/us/Bravo.html"
+    Stream: "http://freedom.duki.me/LIVE/H02/BravoEastUS/master.m3u8"
 }
 {
-    Title: "Roku Example Two"
-    streamFormat: "mp4"
-    Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    Title: "CNN Español"
+    streamFormat: "hls"
+    Logo: "http://www.lyngsat-logo.com/tvchannel/us/CNN-en-Espanol.html"
+    Stream: "http://freedom.duki.me/LIVE/H04/cnn_espa%C3%B1ol/master.m3u8"
 }
 {
-    Title: "Roku Example Three"
-    streamFormat: "mp4"
-    Logo: "https://placeholdit.imgix.net/~text?txtsize=33&txt=channel+logo&w=267&h=150"
-    Stream: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+    Title: "BBC America"
+    streamFormat: "hls"
+    Logo: "http://www.lyngsat-logo.com/tvchannel/us/BBC-America.html"
+    Stream: "http://freedom.duki.me/LIVE/H04/bbc_america/master.m3u8"
 }
 {
     Title: "Roku Example Four"
